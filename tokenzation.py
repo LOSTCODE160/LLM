@@ -38,7 +38,7 @@ tokenizer = simpletokenizerv1(int_vocab)
 text = "The cat sat on the mat."
 ids=tokenizer.encode(text)
 print("encode",ids)
-
+tokenizer.decode(ids)
         
     
         
